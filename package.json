@@ -1,16 +1,16 @@
 {
-  "name": "@getbeak/realtime-value-extensions-template",
+  "name": "@getbeak/extension-variable-template",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "beakExtensionType": "realtime-value",
+  "beakExtensionType": "variable",
   "author": "Alexander Forbes-Reed <git@alex.forbes.red>",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
-    "esbuild": "^0.14.42",
-    "typescript": "^4.6.4",
-    "@getbeak/types": "1.0.0",
-    "@getbeak/types-realtime-value": "^1.0.0"
+    "@getbeak/types": "^2.1.0",
+    "@getbeak/types-variables": "^2.1.0",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.3"
   },
   "scripts": {
     "build": "esbuild src/index.ts --outfile=dist/index.js --bundle --target=node14 --minify --platform=node",

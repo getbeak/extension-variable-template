@@ -1,8 +1,8 @@
-# Beak realtime value extension
+# Beak variable extension
 
 **Note: The Beak Extensions API is still in an experimental phase, and so are the docs.**
 
-This is a template repo to help you get started building a Realtime Value extension for Beak.
+This is a template repo to help you get started building a variable extension for Beak.
 
 ## About Beak
 
